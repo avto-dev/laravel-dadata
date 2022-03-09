@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata;
+namespace AvtoDev\Dadata;
 
 /**
  * Class ClientHint

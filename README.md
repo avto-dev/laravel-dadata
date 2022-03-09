@@ -5,7 +5,7 @@
 ## Установка
 Добавить в composer.json в секцию "require":
 ```
-"fomvasss/laravel-dadata": "^1.0",
+"avto-dev/laravel-dadata": "^1.0",
 ```
 и запустить:
 ```bash
@@ -13,15 +13,15 @@ composer update
 ```
 или же просто запустить
 ```bash
-composer require "fomvasss/laravel-dadata"
+composer require "avto-dev/laravel-dadata"
 ```
 Зарегистрировать service-provider (config/app.php):
 ```php
-  Fomvasss\Dadata\DadataServiceProvider::class,
+  AvtoDev\Dadata\DadataServiceProvider::class,
 ```
 Опубликовать конфиг: 
 ```bash
-php artisan vendor:publish --provider="Fomvasss\Dadata\DadataServiceProvider" --tag="config"
+php artisan vendor:publish --provider="AvtoDev\Dadata\DadataServiceProvider" --tag="config"
 ```
 Ввести токет (и ключ для API стандартизации) в config/dadata.php или .env
 ```php
@@ -32,7 +32,7 @@ php artisan vendor:publish --provider="Fomvasss\Dadata\DadataServiceProvider" --
 ### Сервис подсказок (https://dadata.ru/api/suggest/)
 Добавить в клас фасад:
 ```php
-use Fomvasss\Dadata\Facades\DadataSuggest;
+use AvtoDev\Dadata\Facades\DadataSuggest;
 ```
 Пример использование метода с параметрамы:
 ```php
@@ -44,7 +44,7 @@ print_r($result);
 ### Сервис стандартизации (https://dadata.ru/api/clean/)
 Добавить в клас фасад:
 ```php
-use Fomvasss\Dadata\Facades\DadataClean;
+use AvtoDev\Dadata\Facades\DadataClean;
 ```
 Использовать методы: 
 ```php
