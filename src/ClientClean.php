@@ -1,15 +1,15 @@
 <?php
 
-namespace Fomvasss\Dadata;
+namespace AvtoDev\Dadata;
 
-use Fomvasss\Dadata\Response\AbstractResponse;
-use Fomvasss\Dadata\Response\Address;
-use Fomvasss\Dadata\Response\Date;
-use Fomvasss\Dadata\Response\Email;
-use Fomvasss\Dadata\Response\Name;
-use Fomvasss\Dadata\Response\Passport;
-use Fomvasss\Dadata\Response\Phone;
-use Fomvasss\Dadata\Response\Vehicle;
+use AvtoDev\Dadata\Response\AbstractResponse;
+use AvtoDev\Dadata\Response\Address;
+use AvtoDev\Dadata\Response\Date;
+use AvtoDev\Dadata\Response\Email;
+use AvtoDev\Dadata\Response\Name;
+use AvtoDev\Dadata\Response\Passport;
+use AvtoDev\Dadata\Response\Phone;
+use AvtoDev\Dadata\Response\Vehicle;
 use Exception;
 use GuzzleHttp\ClientInterface;
 use GuzzleHttp\Psr7\Request;

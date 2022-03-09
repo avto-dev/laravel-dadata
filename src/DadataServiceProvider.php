@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata;
+namespace AvtoDev\Dadata;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;

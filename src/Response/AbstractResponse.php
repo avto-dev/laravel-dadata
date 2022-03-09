@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata\Response;
+namespace AvtoDev\Dadata\Response;
 
 abstract class AbstractResponse
 {

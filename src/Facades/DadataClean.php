@@ -1,6 +1,6 @@
 <?php
 
-namespace Fomvasss\Dadata\Facades;
+namespace AvtoDev\Dadata\Facades;
 
 class DadataClean extends \Illuminate\Support\Facades\Facade
 {
